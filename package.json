@@ -1,0 +1,28 @@
+{
+  "name": "mdwalters125",
+  "version": "1.0.0",
+  "description": "A multi-purpose Meower bot",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdwalters/MDWalters125.git"
+  },
+  "author": "M.D. Walters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdwalters/MDWalters125/issues"
+  },
+  "homepage": "https://github.com/mdwalters/MDWalters125",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "meowerbot": "^1.4.3",
+    "node-fetch": "^3.3.0",
+    "simple-json-db": "^2.0.0"
+  }
+}
